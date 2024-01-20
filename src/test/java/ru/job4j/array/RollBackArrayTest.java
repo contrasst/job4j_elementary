@@ -17,7 +17,7 @@ public class RollBackArrayTest {
         int[] input = new int[] {1};
         int[] expected = new int[] {1};
         int[] result = RollBackArray.rollback(input);
-        assertThat(result).containsExactly(expected);
+         assertThat(result).containsExactly(expected);
     }
 
     @Test
