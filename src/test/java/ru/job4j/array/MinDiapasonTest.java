@@ -12,7 +12,7 @@ public class MinDiapasonTest {
         int result = MinDiapason.findMin(array, start, finish);
         int expected = 0;
         assertThat(result).isEqualTo(expected);
-    }
+     }
 
     @Test
     public void whenLastMin() {
