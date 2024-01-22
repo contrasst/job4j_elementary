@@ -52,7 +52,7 @@ class FindLoopTest {
         int result = FindLoop.indexInRange(data, element, start, finish);
         int expected = 3;
         assertThat(result).isEqualTo(expected);
-    }
+     }
 
     @Test
     public void whenDiapasonHas2Then3() {
