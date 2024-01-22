@@ -35,4 +35,4 @@ public class MatrixSumTest {
         int expected = 7;
         assertThat(result).isEqualTo(expected);
     }
-}
+ }
