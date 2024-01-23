@@ -19,7 +19,7 @@ public class SkipNegativeTest {
     }
 
     @Test
-    public void whenArrayRow4AndColumnNotEquals() {
+     public void whenArrayRow4AndColumnNotEquals() {
         int[][] array = {
                 {1, -2},
                 {1, 2, -3},
