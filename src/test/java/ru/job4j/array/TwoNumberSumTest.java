@@ -40,4 +40,4 @@ class TwoNumberSumTest {
         int[] expected = {2, 4};
         assertThat(result).isEqualTo(expected);
     }
-}
+ }
