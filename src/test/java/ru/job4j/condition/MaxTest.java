@@ -32,4 +32,23 @@ class MaxTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
+    void whenMax1And2And3Then8() {
+        int first = 4;
+        int second = 2;
+        int third = 8;
+        int result = Max.max(first, Max.max(second, third));
+        int expected = 8;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenMax1And2nAnd3Then12() {
+        int first = 1;
+        int second = 12;
+        int third = 5;
+        int result = Max.max(first, Max.max(second, third));
+        int expected = 12;
+        assertThat(result).isEqualTo(expected);
+    }
 }
