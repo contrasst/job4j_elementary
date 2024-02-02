@@ -58,7 +58,7 @@ class MaxTest {
         int second = 3;
         int third = 5;
         int fourth = 4;
-        int result = Max.max(Max.max(first, second), Max.max(third, fourth));
+        int result = Max.max(first, second, third, fourth);
         int expected = 5;
         assertThat(result).isEqualTo(expected);
     }
