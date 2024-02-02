@@ -51,7 +51,7 @@ class PointTest {
     }
 
     @Test
-    public void when02To00To02Then() {
+    public void when02To00To02Then2Dot82() {
         double expected = 2.82;
         Point c = new Point(0, 2, 0);
         Point d = new Point(0, 0, 2);

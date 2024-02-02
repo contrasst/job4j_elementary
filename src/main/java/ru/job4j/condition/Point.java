@@ -38,4 +38,4 @@ public class Point {
         double distance = a.distance(b);
         System.out.println(distance);
     }
-}
+ }
